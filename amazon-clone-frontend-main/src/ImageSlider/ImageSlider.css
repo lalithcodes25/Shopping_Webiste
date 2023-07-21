@@ -1,0 +1,35 @@
+.slider{
+    position:relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left_arrow{
+    position: absolute;
+    top: 50%;
+    left: 40px;
+    font-size: 3rem;
+    color:#111;
+    cursor:pointer;
+    user-select: none;
+    z-index:10;
+}
+.right_arrow{
+    position: absolute;
+    top: 50%;
+    right: 40px;
+    font-size: 3rem;
+    color:#111;
+    cursor:pointer;
+    user-select: none;
+    z-index:10;
+}
+.image{
+    width: 100%;
+    z-index:-1;
+	margin-bottom:-150px;
+	mask-image:linear-gradient(to bottom,rgba(0,0,0,1),rgba(0,0,0,0));
+}
+
+
+
